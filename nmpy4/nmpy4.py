@@ -41,3 +41,35 @@ print(a)
 a.fill(3)
 
 print(a)
+
+x = np.eye(4)
+
+print(x)
+
+y = np.eye(5,4)
+
+print(y)
+
+z = np.eye(6,k=1)
+
+print(z)
+
+print()
+
+t = np.eye(6,k=-2)
+
+print(t)
+
+print()
+
+e = np.identity(5)
+
+print(e)
+
+print()
+
+ö = np.diag([4,7,11,3])
+
+print(ö)
+
+print()
