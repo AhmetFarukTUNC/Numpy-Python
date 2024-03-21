@@ -60,6 +60,38 @@ print(f)
 
 print()
 
+g = np.linspace(0,19,20)
+
+print(g)
+
+print()
+
+h = np.reshape(g,(2,10))
+
+print(h)
+
+print()
+
+j = np.linspace(0,19,20).reshape(2,10)
+
+print(j)
+
+print()
+
+# random.random() => [0,1)
+
+k = np.random.random((2,3))
+
+print(k)
+
+print()
+
+l = np.random.randint(3,12,size=(3,2))
+
+print(l)
+
+print()
+
 
 
 
