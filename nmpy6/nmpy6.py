@@ -58,3 +58,57 @@ print()
 
 print(c)
 
+d = np.delete(c,[0,2],axis=1)
+
+print()
+
+print(d)
+
+e = np.arange(5)
+
+print()
+
+print(e)
+
+f = np.append(e,100)
+
+print()
+
+print(f)
+
+g = np.append(f,[200,300])
+
+print()
+
+print(g)
+
+h = np.arange(9).reshape(3,3)
+
+print()
+
+print(h)
+
+ı = np.append(h,[[100,200,300]],axis=0)
+
+print()
+
+print(ı)
+
+i = np.append(ı,[[10],[20],[30],[40]],axis=1)
+
+print()
+
+print(i)
+
+j = np.arange(5)
+
+print(j)
+
+k = np.insert(j,0,10)
+
+print(k)
+
+
+
+
+
